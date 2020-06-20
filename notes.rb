@@ -7,3 +7,10 @@
 # They are not objects, but they refrence objects. 
 sample_variable = 1
 
+# scope indicators
+# $global_variable
+# @@class_variable
+# @instance_variable
+# local_variable
+
+
