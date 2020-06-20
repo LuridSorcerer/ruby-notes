@@ -1,10 +1,9 @@
 # Notes
 
-# Basically everything is an object
-# even primitive types
-# objects have attributes and methods
+# Basically everything is an object, even primitives.
 
 # variables
-# convention is snake case
+# Naming convention is snake case.
+# They are not objects, but they refrence objects. 
 sample_variable = 1
-puts sample_variable
+
