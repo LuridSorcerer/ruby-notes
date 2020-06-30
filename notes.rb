@@ -47,3 +47,9 @@ puts "1".to_i * 5
 puts doublequote.reverse
 puts doublequote.upcase
 puts doublequote.length
+
+#escaping and interpolation
+puts "Escape the \" so it will be printed"
+puts 'Same with \''
+puts "These \tescapes only \nwork with double quotes"
+puts "Same with string interpolation: #{doublequote.length}"
