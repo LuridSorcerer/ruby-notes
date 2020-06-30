@@ -78,3 +78,16 @@ puts my_array.reverse #add ! to assign back to original
 # + : add elements from two arrays
 # - : remove elements
 
+# hashes
+# key-value pairs, object-indexed
+car = {
+	'brand' => 'Pontiac',
+	'model' => 'Grand Am',
+	'color' => 'multi',
+	'interior' => 'gray'
+}
+puts car['model']
+puts car.keys 
+puts car.to_a
+
+
