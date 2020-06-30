@@ -33,3 +33,17 @@ puts sample_float.floor
 puts sample_float.round
 puts (sample_float.to_i).class
 puts sample_float.class
+
+#strings
+doublequote = "Hello"
+singlequote = ' world'
+puts doublequote + singlequote
+doublequote << singlequote
+puts doublequote
+puts singlequote * 3
+puts 1 * 5
+puts "1" * 5
+puts "1".to_i * 5
+puts doublequote.reverse
+puts doublequote.upcase
+puts doublequote.length
