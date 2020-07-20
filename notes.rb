@@ -13,6 +13,14 @@ sample_variable = 2
 # @instance_variable
 # local_variable
 
+# constants
+# start with capital letter 
+# all caps by convention
+# not actually contant, 
+#   ruby throws a warning if they are changed, but allows the change
+SAMPLE_CONST = "tomfoolery"
+SAMPLE_CONST = "whoops, though this was a const"
+
 # numbers
 # + - * / work as expected
 # integer divison truncates
