@@ -98,4 +98,19 @@ puts car['model']
 puts car.keys 
 puts car.to_a
 
+# conditionals
+# if, else, elsif, end
+if sample_variable < 100
+  puts "Under 100"
+elsif sample_variable < 200
+  puts "Between 100 and 200"
+else 
+  puts "200 or more"
+end
+
+# unless
+# same as if !(boolean)
+unless sample_variable.nil?
+  puts sample_variable
+end
 
