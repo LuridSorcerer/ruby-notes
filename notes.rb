@@ -114,3 +114,15 @@ unless sample_variable.nil?
   puts sample_variable
 end
 
+# two styles of code blocks
+# * Curly braces: preferred for single line, or returns data with no changes
+5.times {|i| puts "Curly! " + i.to_s}
+# * do-end format: multi-line blocks, perform actions, make changes
+5.times do |i|
+	puts "Blocky! " + i.to_s
+end
+
+# when iterating over hashes, two iterator variables can be used
+stats = {body:3, mind:1, skill:2}
+stats.each {|stat,value| puts "#{stat.capitalize}: #{value}"}
+
