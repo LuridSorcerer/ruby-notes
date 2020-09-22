@@ -128,3 +128,8 @@ end
 stats = {body:3, mind:1, skill:2}
 stats.each {|stat,value| puts "#{stat.capitalize}: #{value}"}
 
+# find methods
+# find/detect returns the first matching element, find_all/select returns them all
+puts "#{(1..10).select {|n| n % 2 == 0} }"
+# any? returns a boolean, none? returns the opposite
+puts "#{(1..20).any? {|n| n == 33} }"
