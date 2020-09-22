@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 # Notes
 
 # Basically everything is an object, even primitives.
